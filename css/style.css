@@ -98,5 +98,32 @@
 }
 
 .delivered-meals span {
-  color: #e67e22;
+  color: #cf711f;
+}
+
+/*****************************************/
+/* FEATURED SECTION */
+/*****************************************/
+
+.section-featured {
+  padding: 3.2rem 0 9.6rem 0;
+}
+.section-featured h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #777;
+  letter-spacing: 1.05;
+  margin-bottom: 2.2rem;
+}
+
+.featured-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
 }
