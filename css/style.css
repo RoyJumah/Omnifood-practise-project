@@ -4,7 +4,7 @@
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 3.2rem 0 9.6rem 0;
 }
 
 .hero-section {
@@ -38,7 +38,42 @@
 .main-header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 3.6rem 4.8rem 3.6rem;
 }
+.main-header img {
+  width: 10%;
+}
+
 .main-nav-link {
+  display: flex;
+  gap: 2.2rem;
+  align-items: center;
+}
+.main-nav-link a:link,
+.main-nav-link a:visited {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link a:hover,
+.main-nav-link a:active {
+  color: #cf711f;
+}
+
+.main-nav-link a.nav-cta:link,
+.main-nav-link a.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link a.nav-cta:hover,
+.main-nav-link a.nav-cta:active {
+  background-color: #cf711f;
 }
