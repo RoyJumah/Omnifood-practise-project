@@ -127,3 +127,68 @@
   filter: brightness(0);
   opacity: 50%;
 }
+
+/*****************************************/
+/* HOW IT WORKS SECTION */
+/*****************************************/
+
+.section-how-it-works {
+  padding: 0 0 9.6rem 0;
+}
+
+.section-how-it-works span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  letter-spacing: 1.5;
+  margin-bottom: 2.2rem;
+}
+
+.step-description {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.step-number {
+  font-size: 6.8rem;
+  color: #cccccc;
+  font-weight: 700;
+  margin-bottom: 2.2rem;
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.img-box img {
+  width: 35%;
+}
+
+.img-box:before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+  z-index: -2;
+}
+
+.img-box::after {
+  width: 50%;
+  padding-bottom: 45%;
+  background-color: #fae5d3;
+  z-index: -1;
+}
+
+.img-box:before,
+.img-box::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
