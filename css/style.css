@@ -192,3 +192,142 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*****************************************/
+/* MEAL SECTION */
+/*****************************************/
+.section-meal {
+  padding: 9.6rem 0;
+}
+
+.meals img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.span-items {
+  display: flex;
+  gap: 0.6rem;
+}
+.header-meals span {
+  color: #cf711f;
+}
+
+.tag {
+  display: block;
+  margin-bottom: 2.4rem;
+  color: #333;
+
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.meal-text {
+  margin-left: 4.2rem;
+}
+
+.meal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  list-style: none;
+
+  font-size: 1.8rem;
+}
+
+.diet-list span {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #333;
+
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.grid--vegetarian {
+  background-color: #51cf66;
+  display: inline-block;
+  padding: 0.6rem;
+  border-radius: 100px;
+}
+.grid--vegan {
+  background-color: #94d82d;
+
+  display: inline-block;
+  padding: 0.6rem;
+  border-radius: 100px;
+}
+
+.grid--paleo {
+  background-color: #ffd43b;
+
+  display: inline-block;
+  padding: 0.6rem;
+  border-radius: 100px;
+}
+.meals {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meals:hover {
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  transform: translateY(-1.2rem);
+}
+
+.diet-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+
+  font-size: 1.8rem;
+}
+
+.meal-list li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.meal-list-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+
+  color: #cf711f;
+}
+
+.diet-list li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+
+  color: #cf711f;
+}
+
+.recipe-link:link,
+.recipe-link:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #e67e22;
+  text-decoration: none;
+
+  border-bottom: 1px solid currentColor;
+  margin-top: 4.8rem;
+  padding: 0.2rem;
+
+  transition: all 0.3s;
+}
+
+.recipe-link:hover,
+.recipe-link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
