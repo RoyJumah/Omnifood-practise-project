@@ -147,8 +147,8 @@
 }
 
 .step-description {
-  font-size: 1.6rem;
-  line-height: 1.5;
+  font-size: 1.8rem;
+  line-height: 1.6;
 }
 
 .step-number {
@@ -211,6 +211,9 @@
 }
 .header-meals span {
   color: #cf711f;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .tag {
@@ -344,11 +347,17 @@
   background-color: #fdf2e9;
 }
 
+.section-testimonial span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  margin-bottom: 1.8rem;
+}
+
 .testimonial-container {
   padding: 9.6rem;
-}
-.subheading {
-  color: #cf711f;
 }
 
 .testimonial-img {
