@@ -515,3 +515,96 @@ blockquote {
   text-align: center;
   margin-bottom: 4.8rem;
 }
+
+/* pricing-feature */
+.featured-icon {
+  color: #e67e22;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+
+.pricing-subheader {
+  font-size: 1.6rem;
+  margin-bottom: 9.6rem;
+}
+
+.feature-title {
+  display: block;
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+/*****************************************/
+/* Call-to-Action SECTION */
+/*****************************************/
+
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+  height: 50rem;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 4.8rem 6.4rem;
+  color: #45260a;
+}
+
+.cta-text-box h2 {
+  font-size: 4.8rem;
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text-box p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+.cta-img-box {
+  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35)),
+    rgba(230, 125, 34, 0.35), url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form input .cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
