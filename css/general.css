@@ -101,6 +101,11 @@ body {
   column-gap: 8.4rem;
 }
 
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 8.4rem;
+}
+
 .center {
   align-items: center;
   justify-content: center;
@@ -155,4 +160,33 @@ strong {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* pricing-feature */
+.featured-icon {
+  color: #e67e22;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+
+.pricing-subheader {
+  font-size: 1.6rem;
+  margin-bottom: 9.6rem;
+}
+
+.feature-title {
+  display: block;
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
 }
