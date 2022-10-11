@@ -405,6 +405,22 @@ blockquote {
   padding: 9.6rem 0;
 }
 
+.class-pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-secondary-header {
+  display: block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #cf711f;
+  font-weight: 500;
+  letter-spacing: 1.75;
+  margin-bottom: 1.4rem;
+}
+
 .pricing-header {
   text-align: center;
   margin-bottom: 4.8rem;
@@ -429,12 +445,71 @@ blockquote {
   color: #333;
   margin-bottom: 1.6rem;
 }
-.plan-sign-up {
-  text-align: center;
-  margin-bottom: 4.8rem;
+
+.plan-price {
+  font-size: 6rem;
+  font-weight: 500;
 }
+
 .plan-price span {
   font-size: 3rem;
   font-weight: 500;
   margin-right: 0.8rem;
+}
+
+.pricing--plan-starter {
+  justify-self: center;
+  border: 1px solid #fae5d3;
+  border-radius: 9px;
+  padding: 4.8rem;
+}
+
+.pricing--plan-complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  justify-self: center;
+  border-radius: 9px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing--plan-complete::after {
+  content: "Best Value";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #000;
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.plan-list {
+  list-style: none;
+  font-size: 1.8rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.plan-list li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.plan-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #e67e22;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-bottom: 4.8rem;
 }
