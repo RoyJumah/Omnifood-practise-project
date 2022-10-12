@@ -622,3 +622,79 @@ blockquote {
   outline: none;
   box-shadow: 0 0 0 0.8 rgba(253, 242, 233, 0);
 }
+
+/*****************************************/
+/* Call-to-Action SECTION */
+/*****************************************/
+
+.section-footer {
+  padding: 9.6rem 0;
+}
+.header-footer {
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 3.2rem;
+  font-weight: 600;
+}
+
+.logo-col img {
+  height: 2.2rem;
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  margin-top: auto;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+}
+.social-links .footer-link {
+  width: 2rem;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+}
+.contacts {
+  font-style: normal;
+
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+}
+.grid--footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1fr 1fr;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}

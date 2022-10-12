@@ -89,6 +89,8 @@ body {
 
 .grid {
   display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
 }
 
 .grid--2-cols {
@@ -103,6 +105,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+  column-gap: 8.4rem;
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
   column-gap: 8.4rem;
 }
 
