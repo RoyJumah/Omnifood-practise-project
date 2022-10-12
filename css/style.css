@@ -132,11 +132,11 @@
 /* HOW IT WORKS SECTION */
 /*****************************************/
 
-.section-how-it-works {
+.section-how {
   padding: 0 0 9.6rem 0;
 }
 
-.section-how-it-works span {
+.section-how span {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
@@ -550,7 +550,7 @@ blockquote {
 /*****************************************/
 
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem 0;
 }
 
 .cta {
@@ -560,7 +560,6 @@ blockquote {
   border-radius: 11px;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
-  height: 50rem;
 }
 
 .cta-text-box {
@@ -568,20 +567,23 @@ blockquote {
   color: #45260a;
 }
 
-.cta-text-box h2 {
-  font-size: 4.8rem;
+.cta .header-secondary {
   color: #45260a;
   margin-bottom: 3.2rem;
 }
 
-.cta-text-box p {
-  font-size: 1.6rem;
-  line-height: 1.6;
-  margin-bottom: 3.2rem;
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
 }
 .cta-img-box {
-  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35)),
-    rgba(230, 125, 34, 0.35), url("../img/eating.jpg");
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url(../img/eating.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -592,7 +594,8 @@ blockquote {
   row-gap: 2.4rem;
 }
 
-.cta-form input .cta-form select {
+.cta-form input,
+.cta-form select {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.8rem;
@@ -605,6 +608,17 @@ blockquote {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
 .cta-form input::placeholder {
   color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8 rgba(253, 242, 233, 0);
 }

@@ -25,11 +25,11 @@
 
           <nav class="nav-hero">
             <ul class="main-nav-link">
-              <a href="#">Section 1</a>
-              <a href="#">Section 2</a>
-              <a href="#">Section 3</a>
-              <a href="#">Section 4</a>
-              <a class="nav-cta" href="#">Section 5</a>
+              <a href="#">How it works</a>
+              <a href="#">Meals</a>
+              <a href="#">Testimonials</a>
+              <a href="#">Pricing</a>
+              <a class="nav-cta" href="#">Try it for free</a>
             </ul>
           </nav>
         </header>
@@ -108,7 +108,7 @@
         </div>
       </section>
 
-      <section class="section-how-it-works">
+  <section class="section-how">
         <div class="container">
          
           <span> How it Works</span>
@@ -335,6 +335,8 @@
 
   </div>
   </section>  
+  
+  
   <section class="section-pricing">
     <div class="container ">
       <span class="pricing-secondary-header">pricing</span>
@@ -429,41 +431,51 @@
 </div>
 
 </section> 
+
+
 <section class="section-cta"> 
   <div class="container">
     <div class="cta">
       <div class="cta-text-box">
-        <h2> Get your first meal for free</h2>
-        <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
+        <h2 class="header-secondary"> Get your first meal for free</h2>
+        <p class="cta-text">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
+        
         <form class ="cta-form"action="#">
           <div>
           <label for="#full-name">Full Name</label>
           <input type="text" placeholder="John Smith" name="full-name" required>
-<label for="#email">Email address</label>
-<input type="email" placeholder="exmaple@gmail.com" id="email"name = "email"required>
           </div>
-          
+          <div>
+          <label for="#email">Email address</label>
+<input type="email" placeholder="example@gmail.com" id="email"name = "email"required> 
+          </div>   
+        
           <div>
         <label for="#select-where">Where did you hear about us?</label>
-        <select id="select-where">
-  <option value=""></option>
-  <option value="Friends and family"></option>
-  <option value="ad"></option>
-  <option value="TouTube"></option>
-  <option value="Others"></option>
+        <select id="select-where" required>
+  <option value="">Please selection one option</option>
+  <option value="Friends and family">Friends and Family</option>
+  <option value="ad">ad</option>
+  <option value="TouTube">Youtube video</option>
+  <option value="Others">Others</option>
 </select>
 </div>
-</form>  
-</div>
-      <div class="cta-img-box"  role ="" aria-label="A woman enjoying food">
-    
-      </div>
 
+<button class="btn btn--form">
+  Sign up now
+</button>          
+</form> 
+</div>
+
+      <div class="cta-img-box"  role ="" aria-label="A woman enjoying food"></div>
+     
     </div>
   </div> 
+    
 
 </section>
 </main>
  
   </body>
 </html>
+
