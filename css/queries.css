@@ -182,14 +182,14 @@
   .featured-logos img {
     height: 1.2rem;
   }
-  .img.box:nth-child(2) {
+  .step-img-box:nth-child(2) {
     grid-row: 1;
   }
-  .img.box:nth-child(6) {
+  .step-img-box:nth-child(6) {
     grid-row: 5;
   }
 
-  .img-box {
+  .step-img-box {
     transform: translateY(2.4rem);
   }
 

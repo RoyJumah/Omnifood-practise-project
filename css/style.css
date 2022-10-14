@@ -419,12 +419,6 @@ blockquote {
   padding: 9.6rem 0;
 }
 
-.class-pricing {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .pricing-secondary-header {
   display: block;
   font-size: 1.6rem;
