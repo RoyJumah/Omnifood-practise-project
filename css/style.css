@@ -172,32 +172,32 @@
   margin-bottom: 2.2rem;
 }
 
-.img-box {
+.step-img-box {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
-.img-box img {
+.step-img-box img {
   width: 35%;
 }
 
-.img-box:before {
+.step-img-box:before {
   width: 60%;
   padding-bottom: 60%;
   background-color: #fdf2e9;
   z-index: -2;
 }
 
-.img-box::after {
+.step-img-box::after {
   width: 50%;
   padding-bottom: 45%;
   background-color: #fae5d3;
   z-index: -1;
 }
 
-.img-box:before,
-.img-box::after {
+.step-img-box:before,
+.step-img-box::after {
   content: "";
   display: block;
   border-radius: 50%;

@@ -44,19 +44,21 @@ html {
   /*  10px / 16px  = 0.625 = 62.5% */
   /* Percentage of user's browsers font-setting*/
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 .header-primary,
 .header-secondary {
   font-weight: 700;
   color: #333;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
 }
 
 .header-primary {
@@ -185,4 +187,5 @@ strong {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 3.2rem;
 }
