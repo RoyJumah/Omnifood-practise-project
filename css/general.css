@@ -119,6 +119,12 @@ body {
   justify-content: center;
 }
 
+.center-v {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .header-center {
   text-align: center;
 }
